@@ -93,8 +93,11 @@ h1 {
 .wrapper {
     max-width: 41vw;
     margin: auto;
+    margin-top: 4%;  
     padding: 2.1vw;
     display: block;
+    padding-top: 12%;
+    caret-color: transparent;
 }
 
 .buttonBox {
@@ -147,7 +150,7 @@ h1 {
 .resumecontent{
   display: flex;
   flex-direction: column;
-  margin-right: 5%;
+  margin-right: 20%;
   width: 45%;
   height: 100%;
 }
@@ -174,7 +177,8 @@ h1 {
 .skill{
   display: inline-block;
   border-style: solid;
-  padding: 0.4vw;
+  padding-left: 0.4vw;
+  padding-right: 0.4vw;
   border-color:#77C3EC;
   border-width:thin;
   border-radius: 0.4vw;
@@ -185,7 +189,7 @@ h1 {
   margin-top: 0.4vw;
   line-height: 1.9vw;
   font-weight: bold;
-  font-weight: bold;
+  /* vertical-align: middle; */
 }
 
 .skill:hover{
