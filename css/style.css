@@ -1,13 +1,16 @@
 html {
   scroll-behavior: smooth;
-}
+} 
+
 body {
   margin: 0;
 }
+
 header, footer {
   background-color: #fec89a;
   text-align: left;
 }
+
 header {
   font-family: Montserrat Alternates;
   color: #fff;
@@ -27,6 +30,7 @@ h1 {
   color: #ffffff;
   font-size: 1vw;
   font-family: 'Montserrat Alternates';
+  font-weight: bold;
 }
 
 .nameheader{
